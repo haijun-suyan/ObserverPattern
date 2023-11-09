@@ -15,8 +15,9 @@
 		764235A51E5B3341006D4794 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 764235A31E5B3341006D4794 /* LaunchScreen.storyboard */; };
 		764235B01E5B3341006D4794 /* ObserverPatternTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 764235AF1E5B3341006D4794 /* ObserverPatternTests.m */; };
 		764235BB1E5B3341006D4794 /* ObserverPatternUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 764235BA1E5B3341006D4794 /* ObserverPatternUITests.m */; };
-		764235CA1E5B3367006D4794 /* SubscriptionServiceCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 764235C91E5B3367006D4794 /* SubscriptionServiceCenter.m */; };
-		764235CD1E5B35F2006D4794 /* Customer.m in Sources */ = {isa = PBXBuildFile; fileRef = 764235CC1E5B35F2006D4794 /* Customer.m */; };
+		F3B72C9E2AFCE05400656745 /* Customer.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B72C9C2AFCE05400656745 /* Customer.m */; };
+		F3B72CA32AFCE0FC00656745 /* SubscriptionServiceCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B72CA22AFCE0FC00656745 /* SubscriptionServiceCenter.m */; };
+		F3B72CA62AFCEE0600656745 /* CustomerNew.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B72CA52AFCEE0600656745 /* CustomerNew.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,11 +54,13 @@
 		764235B61E5B3341006D4794 /* ObserverPatternUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObserverPatternUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		764235BA1E5B3341006D4794 /* ObserverPatternUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObserverPatternUITests.m; sourceTree = "<group>"; };
 		764235BC1E5B3341006D4794 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		764235C81E5B3367006D4794 /* SubscriptionServiceCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubscriptionServiceCenter.h; sourceTree = "<group>"; };
-		764235C91E5B3367006D4794 /* SubscriptionServiceCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubscriptionServiceCenter.m; sourceTree = "<group>"; };
-		764235CB1E5B35F2006D4794 /* Customer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Customer.h; sourceTree = "<group>"; };
-		764235CC1E5B35F2006D4794 /* Customer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Customer.m; sourceTree = "<group>"; };
-		764235CE1E5B363E006D4794 /* SubscriptionServiceCenterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubscriptionServiceCenterProtocol.h; sourceTree = "<group>"; };
+		F3B72C9C2AFCE05400656745 /* Customer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Customer.m; sourceTree = "<group>"; };
+		F3B72C9D2AFCE05400656745 /* Customer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Customer.h; sourceTree = "<group>"; };
+		F3B72CA02AFCE0FC00656745 /* SubscriptionServiceCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubscriptionServiceCenter.h; sourceTree = "<group>"; };
+		F3B72CA12AFCE0FC00656745 /* SubscriptionServiceCenterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubscriptionServiceCenterProtocol.h; sourceTree = "<group>"; };
+		F3B72CA22AFCE0FC00656745 /* SubscriptionServiceCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubscriptionServiceCenter.m; sourceTree = "<group>"; };
+		F3B72CA42AFCEE0600656745 /* CustomerNew.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomerNew.h; sourceTree = "<group>"; };
+		F3B72CA52AFCEE0600656745 /* CustomerNew.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomerNew.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +115,7 @@
 				764235991E5B3341006D4794 /* AppDelegate.m */,
 				7642359B1E5B3341006D4794 /* ViewController.h */,
 				7642359C1E5B3341006D4794 /* ViewController.m */,
-				764235CB1E5B35F2006D4794 /* Customer.h */,
-				764235CC1E5B35F2006D4794 /* Customer.m */,
-				764235C81E5B3367006D4794 /* SubscriptionServiceCenter.h */,
-				764235C91E5B3367006D4794 /* SubscriptionServiceCenter.m */,
-				764235CE1E5B363E006D4794 /* SubscriptionServiceCenterProtocol.h */,
+				F3B72C992AFCD43400656745 /* Subscription */,
 				7642359E1E5B3341006D4794 /* Main.storyboard */,
 				764235A11E5B3341006D4794 /* Assets.xcassets */,
 				764235A31E5B3341006D4794 /* LaunchScreen.storyboard */,
@@ -150,6 +149,36 @@
 				764235BC1E5B3341006D4794 /* Info.plist */,
 			);
 			path = ObserverPatternUITests;
+			sourceTree = "<group>";
+		};
+		F3B72C992AFCD43400656745 /* Subscription */ = {
+			isa = PBXGroup;
+			children = (
+				F3B72C9B2AFCE05400656745 /* 待观察者类集 */,
+				F3B72C9F2AFCE0FC00656745 /* 订阅中心 */,
+			);
+			name = Subscription;
+			sourceTree = "<group>";
+		};
+		F3B72C9B2AFCE05400656745 /* 待观察者类集 */ = {
+			isa = PBXGroup;
+			children = (
+				F3B72C9D2AFCE05400656745 /* Customer.h */,
+				F3B72C9C2AFCE05400656745 /* Customer.m */,
+				F3B72CA42AFCEE0600656745 /* CustomerNew.h */,
+				F3B72CA52AFCEE0600656745 /* CustomerNew.m */,
+			);
+			path = "待观察者类集";
+			sourceTree = "<group>";
+		};
+		F3B72C9F2AFCE0FC00656745 /* 订阅中心 */ = {
+			isa = PBXGroup;
+			children = (
+				F3B72CA02AFCE0FC00656745 /* SubscriptionServiceCenter.h */,
+				F3B72CA22AFCE0FC00656745 /* SubscriptionServiceCenter.m */,
+				F3B72CA12AFCE0FC00656745 /* SubscriptionServiceCenterProtocol.h */,
+			);
+			path = "订阅中心";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,11 +315,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3B72CA32AFCE0FC00656745 /* SubscriptionServiceCenter.m in Sources */,
 				7642359D1E5B3341006D4794 /* ViewController.m in Sources */,
-				764235CA1E5B3367006D4794 /* SubscriptionServiceCenter.m in Sources */,
 				7642359A1E5B3341006D4794 /* AppDelegate.m in Sources */,
 				764235971E5B3341006D4794 /* main.m in Sources */,
-				764235CD1E5B35F2006D4794 /* Customer.m in Sources */,
+				F3B72CA62AFCEE0600656745 /* CustomerNew.m in Sources */,
+				F3B72C9E2AFCE05400656745 /* Customer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

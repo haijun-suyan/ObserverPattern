@@ -15,7 +15,8 @@
 }
 
 #pragma mark ----- SubscriptionServiceCenterProtocol
-- (void)subscriptionMessage:(id)message subscriptionNumber:(NSString *)subscriptionNumber {//听众/观察者对象接收到广播📢消息后回调
+//待观察者 所绑定的 回调IMP
+- (void)subscriptionMessage:(id)message subscriptionNumber:(NSString *)subscriptionNumber {//听众/待观察者对象接收到广播📢消息后回调
     NSLog(@"%@广播站点播放%@信息被听众收到",subscriptionNumber,message);
 }
 

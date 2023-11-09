@@ -8,7 +8,8 @@
 
 #import "SubscriptionServiceCenter.h"
 
-//状态管理器(以核心对象(核心广播站点)为存储元素)
+//状态管理器(以核心对象(核心广播站点(主观察器))为存储元素)
+//广播站点(主观察器)的集合对象
 static NSMutableDictionary *_subscriptionDictionary = nil;
 
 @implementation SubscriptionServiceCenter
